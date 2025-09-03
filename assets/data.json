@@ -1,0 +1,57 @@
+{
+	"artists": [
+		{ "id": "a1", "name": "The Weekday", "image": "https://picsum.photos/seed/artist1/300" },
+		{ "id": "a2", "name": "Dua Peep", "image": "https://picsum.photos/seed/artist2/300" },
+		{ "id": "a3", "name": "Drakeo", "image": "https://picsum.photos/seed/artist3/300" }
+	],
+	"songs": [
+		{
+			"id": "s1",
+			"title": "Blinding Lightspeed",
+			"artistId": "a1",
+			"audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+			"cover": "https://picsum.photos/seed/song1/600",
+			"duration": 210
+		},
+		{
+			"id": "s2",
+			"title": "Levitating High",
+			"artistId": "a2",
+			"audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+			"cover": "https://picsum.photos/seed/song2/600",
+			"duration": 198
+		},
+		{
+			"id": "s3",
+			"title": "God's Plan B",
+			"artistId": "a3",
+			"audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+			"cover": "https://picsum.photos/seed/song3/600",
+			"duration": 230
+		}
+	],
+	"playlists": [
+		{
+			"id": "p1",
+			"title": "Trending Now",
+			"cover": "https://picsum.photos/seed/playlist1/600",
+			"songIds": ["s1", "s2", "s3"]
+		},
+		{
+			"id": "p2",
+			"title": "Recommended",
+			"cover": "https://picsum.photos/seed/playlist2/600",
+			"songIds": ["s2", "s3"]
+		},
+		{
+			"id": "p3",
+			"title": "Recently Played",
+			"cover": "https://picsum.photos/seed/playlist3/600",
+			"songIds": ["s3", "s1"]
+		}
+	],
+	"likedSongs": ["s2"],
+	"likedPlaylists": ["p1"]
+}
+
+
